@@ -1,4 +1,4 @@
----
+- name : configure docker 
   hosts : prod-server
   become: true
   connection : ssh
