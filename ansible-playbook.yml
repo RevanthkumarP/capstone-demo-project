@@ -1,5 +1,5 @@
 -name : configure Docker 
-  hosts : test-server
+  hosts : all
   become: true
   connection : ssh
   tasks : 
